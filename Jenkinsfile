@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone') {
             steps {
-                git '<your-repo-url>'
+                git '<https://github.com/Mohanannadurai/student-results-app.git>'
             }
         }
 
