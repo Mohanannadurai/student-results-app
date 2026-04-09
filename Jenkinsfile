@@ -4,10 +4,10 @@ pipeline {
     stages {
 
         stage('Clone') {
-            steps {
-                git 'https://github.com/Mohanannadurai/student-results-app.git'
-            }
-        }
+          steps {
+            echo 'SCM already checked out'
+    }
+}
 
         stage('Build') {
             steps {
