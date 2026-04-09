@@ -10,7 +10,7 @@ public class Student {
     }
 
     public String getResult() {
-        return marks >= 50 ? "Pass" : "Fail";
+        return marks >= 40 ? "Pass" : "Fail";
     }
 
     public String getName() { return name; }
